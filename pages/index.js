@@ -14,7 +14,7 @@ export default function Index({ preview, allPosts }) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>BIEN SÛR</title>
+          <title>Sania García</title>
         </Head>
         <Container>
           <Intro />
