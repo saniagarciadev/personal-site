@@ -41,13 +41,13 @@ export default function Intro() {
           >
             Lens
           </a>
-          <a
+          {/* <a
             href="https://read.cv/saniagarcia"
             target="_blank"
             className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
           >
             Read.CV
-          </a>
+          </a> */}
           <a
             href="mailto:saniagarciapro@gmail.com"
             target="_blank"
