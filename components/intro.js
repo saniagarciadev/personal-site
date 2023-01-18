@@ -3,48 +3,54 @@ import PostPreview from "./post-preview";
 
 export default function Intro() {
   return (
-    <section className="min-h-[100vh] py-10 px-10  flex flex-col justify-between items-center">
-      <div className="w-full flex flex-row justify-between">
+    <section className="min-h-[100vh] py-10 px-10 flex flex-col justify-between items-center gap-10">
+      <div className="w-full flex flex-row justify-between flex-wrap">
         <h1 className="text-xl font-light text-left tracking-tighter leading-tight md:pr-8">
           SANIA GARCÍA
           <br />
           <span className="opacity-50">Software developer</span>
         </h1>
-        <div className="py-5 flex flex-row gap-10">
+        <div className="py-5 flex flex-row gap-10 flex-wrap">
           <a
-            href="https://twitter.com/thickassdj"
+            href="https://twitter.com/SaniaGarciaDev"
+            target="_blank"
             className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
           >
             Twitter
           </a>
 
           <a
-            href="https://www.instagram.com/lex_klein_/"
+            href="https://github.com/saniagarciadev"
+            target="_blank"
             className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
           >
             Github
           </a>
 
           <a
-            href="https://soundcloud.com/biensurr"
+            href="https://www.linkedin.com/in/sania-garcia/"
+            target="_blank"
             className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
           >
             LinkedIn
           </a>
           <a
-            href="https://www.instagram.com/lex_klein_/"
+            href="https://www.lensfrens.xyz/sania.lens"
+            target="_blank"
             className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
           >
             Lens
           </a>
           <a
-            href="https://twitter.com/thickassdj"
+            href="https://read.cv/saniagarcia"
+            target="_blank"
             className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
           >
             Read.CV
           </a>
           <a
-            href="https://www.instagram.com/lex_klein_/"
+            href="mailto:saniagarciapro@gmail.com"
+            target="_blank"
             className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
           >
             E-mail
@@ -62,19 +68,22 @@ export default function Intro() {
           </p>
           <div className="flex flex-row justify-between">
             <a
-              href="https://www.instagram.com/lex_klein_/"
+              href="https://layers.live/art"
+              target="_blank"
               className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
             >
               Site (in progress)
             </a>
             <a
-              href="https://www.instagram.com/lex_klein_/"
+              href="files/art-layer-draft"
+              target="_blank"
               className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
             >
               Site mockup
             </a>
             <a
-              href="https://www.instagram.com/lex_klein_/"
+              href="https://github.com/GIRLYDAO/layers-mobile"
+              target="_blank"
               className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
             >
               Repository
