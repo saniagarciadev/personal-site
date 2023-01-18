@@ -3,19 +3,10 @@ import { EXAMPLE_PATH } from "../lib/constants";
 
 export default function Footer() {
   return (
-    <footer className="w-full bottom-0 bg-black opacity-10 ">
+    <footer className="w-full bottom-0 bg-black/10 ">
       <Container>
-        <div className="py-3 px-7 flex flex-row gap-10 items-center justify-end">
-          <p>Copyright © 2022 Bien Sûr. All Rights Reserved.</p>
-          <p>
-            Site by{" "}
-            <a
-              href="https://github.com/saniagarciadev"
-              className="underline hover:text-success duration-200 transition-colors"
-            >
-              Sania García
-            </a>
-          </p>
+        <div className="py-3 px-10 text-white/50 flex flex-row justify-end">
+          <p>2023 Sania García</p>
         </div>
       </Container>
     </footer>

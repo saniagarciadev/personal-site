@@ -3,7 +3,7 @@ import PostPreview from "./post-preview";
 
 export default function Intro() {
   return (
-    <section className="min-h-[100vh] py-10 px-10 text-white font-['Open_Sans'] flex flex-col justify-between items-center">
+    <section className="min-h-[100vh] py-10 px-10  flex flex-col justify-between items-center">
       <div className="w-full flex flex-row justify-between">
         <h1 className="text-xl font-light text-left tracking-tighter leading-tight md:pr-8">
           SANIA GARCÍA
@@ -51,9 +51,9 @@ export default function Intro() {
           </a>
         </div>
       </div>
-      <div className="min-h-[50vh] w-full p-5 border-solid border rounded-md border-[#957868] hover:border-white transition-all duration-200 flex flex-row justify-between">
+      <div className="min-h-[50vh] w-full p-5 border-solid border rounded-md border-white/50 hover:border-white/70 transition-all duration-200 flex flex-row justify-between">
         <div className="flex flex-col justify-between">
-          <h1 className=" opacity-50">Mobile app</h1>
+          <h1 className="opacity-50">Mobile app</h1>
           <h2 className="text-xl">The Art Layer</h2>
           <p>
             A discovery tool and marketplace for NFT art in the physical world.
@@ -84,7 +84,7 @@ export default function Intro() {
       </div>
       <div className="w-full p-5 flex flex-row justify-between">
         <div className="flex flex-col justify-between gap-7">
-          <h1 className="opacity-50">About:</h1>
+          <h1 className="opacity-50">About</h1>
           <p>
             After a few years in tech-adjacent jobs such as graphic design and
             social media management, in 2019 I decided that I would stop
