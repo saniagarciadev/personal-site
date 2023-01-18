@@ -5,10 +5,10 @@ export default function Layout({ preview, children }) {
   return (
     <>
       <Meta />
-      <div className="min-h-screen bg-black">
+      <div className="min-h-screen bg-warm-dark">
         <main>{children}</main>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }

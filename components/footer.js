@@ -3,7 +3,7 @@ import { EXAMPLE_PATH } from "../lib/constants";
 
 export default function Footer() {
   return (
-    <footer className="bg-indigo-500">
+    <footer className="w-full bottom-0 bg-black opacity-10 ">
       <Container>
         <div className="py-3 px-7 flex flex-row gap-10 items-center justify-end">
           <p>Copyright © 2022 Bien Sûr. All Rights Reserved.</p>
