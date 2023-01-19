@@ -57,7 +57,7 @@ export default function Intro() {
           </a>
         </div>
       </div>
-      <div className="min-h-[50vh] w-full p-5 border-solid border rounded-md border-white/50 hover:border-white/70 transition-all duration-200 flex flex-row justify-between">
+      <div className="min-h-[50vh] w-full p-5 border-solid border rounded-md border-white/50 hover:border-white/70 transition-all duration-200 flex flex-row justify-between gap-6">
         <div className="flex flex-col justify-between">
           <h1 className="opacity-50">Mobile app</h1>
           <h2 className="text-xl">The Art Layer</h2>
@@ -83,6 +83,63 @@ export default function Intro() {
             </a>
             <a
               href="https://github.com/GIRLYDAO/layers-mobile"
+              target="_blank"
+              className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
+            >
+              Repository
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
+        <div className="w-full p-5 border-solid border rounded-md border-white/50 hover:border-white/70 transition-all duration-200 flex flex-col justify-between basis-1/2 gap-6">
+          <h1 className="opacity-50">Software label</h1>
+          <h2 className="text-xl">Girly</h2>
+          <p>
+            An umbrella brand for different software projects and experiments,
+            as well as a meeting point for people who have similar interests and
+            want to stay involved.
+            <br />
+            It's a way for me to test the waters for a potential future startup,
+            as well as to expand my network.
+          </p>
+          <div className="flex flex-row justify-between">
+            <a
+              href="https://girly.network/"
+              target="_blank"
+              className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
+            >
+              Site (in progress)
+            </a>
+            <a
+              href="https://github.com/GIRLYDAO/girly-site"
+              target="_blank"
+              className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
+            >
+              Repository
+            </a>
+          </div>
+        </div>
+        <div className="w-full p-5 border-solid border rounded-md border-white/50 hover:border-white/70 transition-all duration-200 flex flex-col justify-between basis-1/2 gap-6">
+          <h1 className="opacity-50">Musician's site</h1>
+          <h2 className="text-xl">Bien Sûr</h2>
+          <p>
+            A contact point and promotional tool for a musician. Built with
+            Next.js and Contentful.
+            <br />
+            I'm also helping the artist enter the world of Web3 music, with
+            guidance on comunity building, music NFT, etc.
+          </p>
+          <div className="flex flex-row justify-between">
+            <a
+              href="https://audio-portfolio.vercel.app/"
+              target="_blank"
+              className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
+            >
+              Site (in progress)
+            </a>
+            <a
+              href="https://github.com/saniagarciadev/audio-portfolio"
               target="_blank"
               className="underline opacity-50 hover:opacity-70 duration-200 transition-colors"
             >
