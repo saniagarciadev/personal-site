@@ -5,11 +5,9 @@ export default function Layout({ preview, children }) {
   return (
     <>
       <Meta />
-      <div className="h-screen fixed bg-warm-dark text-white font-['Open_Sans']">
-        <div className="h-screen overflow-auto">
-          <main>{children}</main>
-          <Footer />
-        </div>
+      <div className="h-screen fixed flex flex-col justify-between bg-warm-dark text-white font-['Open_Sans'] overflow-auto">
+        <main>{children}</main>
+        <Footer />
       </div>
     </>
   );
